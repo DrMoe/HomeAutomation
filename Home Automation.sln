@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home Automation", "Home Automation\Home Automation.csproj", "{FC71A2C6-DF25-4807-AC16-4986D0E4E57A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataHandler", "DataHandler\DataHandler.csproj", "{9A402282-6CB8-47FE-9E0C-3662763147FA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuePlugin", "HuePlugin\HuePlugin.csproj", "{F5034CDB-9C34-4D8B-B16B-5EE68F2009CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginBase", "PluginBase\PluginBase.csproj", "{B9823A2F-8948-4E2E-B14A-5FD24843BF01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventOperation", "AutomationClient\EventOperation.csproj", "{776C2B9B-AEAE-42E4-9036-2F60DA80FF72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC71A2C6-DF25-4807-AC16-4986D0E4E57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC71A2C6-DF25-4807-AC16-4986D0E4E57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC71A2C6-DF25-4807-AC16-4986D0E4E57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC71A2C6-DF25-4807-AC16-4986D0E4E57A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A402282-6CB8-47FE-9E0C-3662763147FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A402282-6CB8-47FE-9E0C-3662763147FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A402282-6CB8-47FE-9E0C-3662763147FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A402282-6CB8-47FE-9E0C-3662763147FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5034CDB-9C34-4D8B-B16B-5EE68F2009CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5034CDB-9C34-4D8B-B16B-5EE68F2009CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5034CDB-9C34-4D8B-B16B-5EE68F2009CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5034CDB-9C34-4D8B-B16B-5EE68F2009CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9823A2F-8948-4E2E-B14A-5FD24843BF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9823A2F-8948-4E2E-B14A-5FD24843BF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9823A2F-8948-4E2E-B14A-5FD24843BF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9823A2F-8948-4E2E-B14A-5FD24843BF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776C2B9B-AEAE-42E4-9036-2F60DA80FF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776C2B9B-AEAE-42E4-9036-2F60DA80FF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776C2B9B-AEAE-42E4-9036-2F60DA80FF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776C2B9B-AEAE-42E4-9036-2F60DA80FF72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3647B391-717C-4F2B-99F2-9D28F021FB89}
+	EndGlobalSection
+EndGlobal

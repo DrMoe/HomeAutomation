@@ -1,0 +1,25 @@
+﻿@using DataHandler.Models
+@model List<DataHandler.Models.Device>
+
+<script src="@Url.Content("~/js/Device.js")"></script>
+
+
+<table class="display dataTable table" id="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Product</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="a-row" data-href="/Device/ViewDevice/@item.DeviceId">
+                <td>@item.Name</td>
+                <td>@item.Id</td>
+                <td>@item.ProductName</td>
+            </tr>
+        }
+    </tbody>
+</table>
